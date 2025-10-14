@@ -1,11 +1,12 @@
 -- cropocalypse/crafting.lua
+local S = core.get_translator("cropocalypse")
 
 -- These Are The Crafting Recipes
 
 -- Wooden Bowl
 
 minetest.register_craftitem("cropocalypse:wooden_bowl", {
-	description = ("Wooden Bowl"),
+	description = S("Wooden Bowl"),
 	inventory_image = "cropocalypse_wooden_bowl.png",
 	groups = {flammable = 2},
 })
@@ -21,7 +22,7 @@ minetest.register_craft({
 -- Sliced Apples
 
 minetest.register_craftitem("cropocalypse:sliced_apples", {
-	description = ("Sliced Apples"),
+	description = S("Sliced Apples"),
 	inventory_image = "cropocalypse_sliced_apples.png",
 	on_use = minetest.item_eat(2),
 	groups = {food_sliced_apples = 1, flammable = 1},
@@ -36,7 +37,7 @@ minetest.register_craft({
 -- Apple Cider Vinegar
 
 minetest.register_craftitem("cropocalypse:apple_cider_vinegar", {
-	description = ("Apple Cider Vinegar"),
+	description = S("Apple Cider Vinegar"),
 	inventory_image = "cropocalypse_apple_cider_vinegar.png",
 	on_use = minetest.item_eat(1),
 	groups = {food_apple_cider_vinegar = 1, flammable = 1},
@@ -51,7 +52,7 @@ minetest.register_craft({
 -- Saltwater Kelp Jar
 
 minetest.register_craftitem("cropocalypse:saltwater_kelp_jar", {
-	description = ("Saltwater Kelp Jar"),
+	description = S("Saltwater Kelp Jar"),
 	inventory_image = "cropocalypse_saltwater_kelp_jar.png",
 	on_use = minetest.item_eat(1),
 	groups = {food_saltwater_kelp_jar = 1, flammable = 1},
@@ -66,7 +67,7 @@ minetest.register_craft({
 -- Multiplying Saltwater Kelp Jars Because Kelp Is Not Currently Renewable
 
 minetest.register_craftitem("cropocalypse:saltwater_kelp_jar", {
-	description = ("Saltwater Kelp Jar"),
+	description = S("Saltwater Kelp Jar"),
 	inventory_image = "cropocalypse_saltwater_kelp_jar.png",
 	on_use = minetest.item_eat(1),
 	groups = {food_saltwater_kelp_jar = 1, flammable = 1},
@@ -89,7 +90,7 @@ minetest.register_craft({
 -- Kelp Agar
 
 minetest.register_craftitem("cropocalypse:kelp_agar", {
-	description = ("Kelp Agar"),
+	description = S("Kelp Agar"),
 	inventory_image = "cropocalypse_kelp_agar.png",
 	on_use = minetest.item_eat(1),
 	groups = {food_kelp_agar = 1, flammable = 1},
@@ -103,7 +104,7 @@ minetest.register_craft({
 
 -- Sliced Carrots
 minetest.register_craftitem("cropocalypse:sliced_carrots", {
-	description = ("Sliced Carrots"),
+	description = S("Sliced Carrots"),
 	inventory_image = "cropocalypse_sliced_carrots.png",
 	on_use = minetest.item_eat(2),
 	groups = {food_sliced_carrots = 1, flammable = 1},
@@ -117,7 +118,7 @@ minetest.register_craft({
 
 -- Carrot Cake
 minetest.register_craftitem("cropocalypse:carrot_cake", {
-	description = ("Carrot Cake"),
+	description = S("Carrot Cake"),
 	inventory_image = "cropocalypse_carrot_cake.png",
 	on_use = minetest.item_eat(7),
 	groups = {food_carrot_cake = 1, flammable = 1},
@@ -135,7 +136,7 @@ minetest.register_craft({
 
 -- Mashed Potatoes
 minetest.register_craftitem("cropocalypse:mashed_potatoes", {
-	description = ("Mashed Potatoes"),
+	description = S("Mashed Potatoes"),
 	inventory_image = "cropocalypse_mashed_potatoes.png",
 	on_use = minetest.item_eat(4),
 	groups = {food_mashed_potatoes = 1, flammable = 1},
@@ -150,7 +151,7 @@ minetest.register_craft({
 -- Sugar
 
 minetest.register_craftitem("cropocalypse:sugar", {
-	description = ("Sugar"),
+	description = S("Sugar"),
 	inventory_image = "cropocalypse_sugar.png",
 	on_use = minetest.item_eat(1),
 	groups = {food_sugar = 1, flammable = 1},
@@ -165,7 +166,7 @@ minetest.register_craft({
 -- Soybean Water
 
 minetest.register_craftitem("cropocalypse:soybean_water", {
-	description = ("Soybean Water"),
+	description = S("Soybean Water"),
 	inventory_image = "cropocalypse_soybean_water.png",
 	on_use = minetest.item_eat(1),
 	groups = {food_soybean_water = 1, flammable = 1},
@@ -180,7 +181,7 @@ minetest.register_craft({
 -- Soy Milk
 
 minetest.register_craftitem("cropocalypse:soy_milk", {
-	description = ("Soy Milk"),
+	description = S("Soy Milk"),
 	inventory_image = "cropocalypse_soy_milk.png",
 	on_use = minetest.item_eat(4),
 	groups = {food_soy_milk = 1, flammable = 1},
@@ -195,7 +196,7 @@ minetest.register_craft({
 -- Soy Butter
 
 minetest.register_craftitem("cropocalypse:soy_butter", {
-	description = ("Soy Butter"),
+	description = S("Soy Butter"),
 	inventory_image = "cropocalypse_soy_butter.png",
 	on_use = minetest.item_eat(4),
 	groups = {food_soy_butter = 1, flammable = 1},
@@ -210,7 +211,7 @@ minetest.register_craft({
 -- Uncooked Garlic Bread
 
 minetest.register_craftitem("cropocalypse:uncooked_garlic_bread", {
-	description = ("Uncooked Garlic Bread"),
+	description = S("Uncooked Garlic Bread"),
 	inventory_image = "cropocalypse_uncooked_garlic_bread.png",
 	on_use = minetest.item_eat(3),
 	groups = {food_uncooked_garlic_bread = 1, flammable = 1},
@@ -225,7 +226,7 @@ minetest.register_craft({
 -- Cooked Garlic Bread
 
 minetest.register_craftitem("cropocalypse:cooked_garlic_bread", {
-	description = ("Cooked Garlic Bread"),
+	description = S("Cooked Garlic Bread"),
 	inventory_image = "cropocalypse_cooked_garlic_bread.png",
 	on_use = minetest.item_eat(8),
 	groups = {food_cooked_garlic_bread = 1, flammable = 1},
@@ -340,7 +341,7 @@ minetest.register_craft({
 
 -- Uncooked Pumpkin Pie
 minetest.register_craftitem("cropocalypse:uncooked_pumpkin_pie", {
-	description = ("Uncooked Pumpkin Pie"),
+	description = S("Uncooked Pumpkin Pie"),
 	inventory_image = "cropocalypse_uncooked_pumpkin_pie.png",
 	on_use = minetest.item_eat(4),
 	groups = {food_uncooked_pumpkin_pie = 1, flammable = 1},
@@ -358,7 +359,7 @@ minetest.register_craft({
 
 -- Cooked Pumpkin Pie
 minetest.register_craftitem("cropocalypse:cooked_pumpkin_pie", {
-	description = ("Cooked Pumpkin Pie"),
+	description = S("Cooked Pumpkin Pie"),
 	inventory_image = "cropocalypse_cooked_pumpkin_pie.png",
 	on_use = minetest.item_eat(8),
 	groups = {food_cooked_pumpkin_pie = 1, flammable = 1},
@@ -474,7 +475,7 @@ minetest.register_craft({
 -- Corn On The Cob
 
 minetest.register_craftitem("cropocalypse:corn_on_the_cob", {
-	description = ("Corn On The Cob"),
+	description = S("Corn On The Cob"),
 	inventory_image = "cropocalypse_corn_on_the_cob.png",
 	on_use = minetest.item_eat(4),
 	groups = {food_corn_on_the_cob = 1, flammable = 1},
@@ -489,7 +490,7 @@ minetest.register_craft({
 -- Cocao Pulp
 
 minetest.register_craftitem("cropocalypse:cocao_pulp", {
-	description = ("Cocao Pulp"),
+	description = S("Cocao Pulp"),
 	inventory_image = "cropocalypse_cocao_pulp.png",
 	on_use = minetest.item_eat(1),
 	groups = {food_cocao_pulp = 1, flammable = 1},
@@ -504,7 +505,7 @@ minetest.register_craft({
 -- Roasted Cocao
 
 minetest.register_craftitem("cropocalypse:roasted_cocao", {
-	description = ("Roasted Cocao"),
+	description = S("Roasted Cocao"),
 	inventory_image = "cropocalypse_roasted_cocao.png",
 	on_use = minetest.item_eat(2),
 	groups = {food_roasted_cocao = 1, flammable = 1},
@@ -519,7 +520,7 @@ minetest.register_craft({
 -- Cocao Paste
 
 minetest.register_craftitem("cropocalypse:cocao_paste", {
-	description = ("Cocao Paste"),
+	description = S("Cocao Paste"),
 	inventory_image = "cropocalypse_cocao_paste.png",
 	on_use = minetest.item_eat(2),
 	groups = {food_cocao_paste = 1, flammable = 1},
@@ -534,7 +535,7 @@ minetest.register_craft({
 -- Chocolate
 
 minetest.register_craftitem("cropocalypse:chocolate", {
-	description = ("Chocolate"),
+	description = S("Chocolate"),
 	inventory_image = "cropocalypse_chocolate.png",
 	on_use = minetest.item_eat(4),
 	groups = {food_chocolate = 1, flammable = 1},
@@ -549,7 +550,7 @@ minetest.register_craft({
 -- Mushroom Surprise
 
 minetest.register_craftitem("cropocalypse:mushroom_surprise", {
-	description = ("Mushroom Surprise"),
+	description = S("Mushroom Surprise"),
 	inventory_image = "cropocalypse_mushroom_surprise.png",
 	on_use = minetest.item_eat(6),
 	groups = {food_mushroom_surprise = 1, flammable = 1},
@@ -579,7 +580,7 @@ minetest.register_craft({
 
 -- Light Blue Dye Item Register
 minetest.register_craftitem("cropocalypse:light_blue_dye", {
-	description = ("Light Blue Dye"),
+	description = S("Light Blue Dye"),
 	inventory_image = "cropocalypse_light_blue.png",
 	groups = {light_blue_dye = 1, flammable = 1},
 })
@@ -610,7 +611,7 @@ minetest.register_craft({
 
 -- Linen Item Register
 minetest.register_craftitem("cropocalypse:linen", {
-	description = ("Linen"),
+	description = S("Linen"),
 	inventory_image = "cropocalypse_linen.png",
 	groups = {linen = 1, flammable = 1, thread = 1},
 })

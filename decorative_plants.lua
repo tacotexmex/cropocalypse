@@ -1,4 +1,5 @@
 -- cropocalypse/decorative_plants.lua
+local S = core.get_translator("cropocalypse")
 
 -- Adds Various Decorative Plants To The World
 -- They Only Multiply On Close By Fresh Dirt
@@ -6,7 +7,7 @@
 
 -- Beach Pea
 minetest.register_node("cropocalypse:beach_pea", {
-	description = ("Beach Pea"),
+	description = S("Beach Pea"),
 	tiles = {"cropocalypse_beach_pea.png"},
 	inventory_image = "cropocalypse_beach_pea.png",
 	wield_image = "cropocalypse_beach_pea.png",
@@ -46,7 +47,7 @@ minetest.register_decoration({
 
 -- Bells Of Ireland
 minetest.register_node("cropocalypse:bells_of_ireland", {
-	description = ("Bells Of Ireland"),
+	description = S("Bells Of Ireland"),
 	tiles = {"cropocalypse_bells_of_ireland.png"},
 	inventory_image = "cropocalypse_bells_of_ireland.png",
 	wield_image = "cropocalypse_bells_of_ireland.png",
@@ -86,7 +87,7 @@ minetest.register_decoration({
 
 -- Bluebell
 minetest.register_node("cropocalypse:bluebell", {
-	description = ("Bluebell"),
+	description = S("Bluebell"),
 	tiles = {"cropocalypse_bluebell.png"},
 	inventory_image = "cropocalypse_bluebell.png",
 	wield_image = "cropocalypse_bluebell.png",
@@ -126,7 +127,7 @@ minetest.register_decoration({
 
 -- Bog Star
 minetest.register_node("cropocalypse:bog_star", {
-	description = ("Bog Star"),
+	description = S("Bog Star"),
 	tiles = {"cropocalypse_bog_star.png"},
 	inventory_image = "cropocalypse_bog_star.png",
 	wield_image = "cropocalypse_bog_star.png",
@@ -166,7 +167,7 @@ minetest.register_decoration({
 
 -- Buttercup
 minetest.register_node("cropocalypse:buttercup", {
-	description = ("Buttercup"),
+	description = S("Buttercup"),
 	tiles = {"cropocalypse_buttercup.png"},
 	inventory_image = "cropocalypse_buttercup.png",
 	wield_image = "cropocalypse_buttercup.png",
@@ -206,7 +207,7 @@ minetest.register_decoration({
 
 -- Catchfly
 minetest.register_node("cropocalypse:catchfly", {
-	description = ("Catchfly"),
+	description = S("Catchfly"),
 	tiles = {"cropocalypse_catchfly.png"},
 	inventory_image = "cropocalypse_catchfly.png",
 	wield_image = "cropocalypse_catchfly.png",
@@ -246,7 +247,7 @@ minetest.register_decoration({
 
 -- Cattail
 minetest.register_node("cropocalypse:cattail", {
-	description = ("Cattail"),
+	description = S("Cattail"),
 	tiles = {"cropocalypse_cattail.png"},
 	inventory_image = "cropocalypse_cattail.png",
 	wield_image = "cropocalypse_cattail.png",
@@ -286,7 +287,7 @@ minetest.register_decoration({
 
 -- Chocolate Lily
 minetest.register_node("cropocalypse:chocolate_lily", {
-	description = ("Chocolate Lily"),
+	description = S("Chocolate Lily"),
 	tiles = {"cropocalypse_chocolate_lily.png"},
 	inventory_image = "cropocalypse_chocolate_lily.png",
 	wield_image = "cropocalypse_chocolate_lily.png",
@@ -326,7 +327,7 @@ minetest.register_decoration({
 
 -- Columbine
 minetest.register_node("cropocalypse:columbine", {
-	description = ("Columbine"),
+	description = S("Columbine"),
 	tiles = {"cropocalypse_columbine.png"},
 	inventory_image = "cropocalypse_columbine.png",
 	wield_image = "cropocalypse_columbine.png",
@@ -366,7 +367,7 @@ minetest.register_decoration({
 
 -- Daffodil
 minetest.register_node("cropocalypse:daffodil", {
-	description = ("Daffodil"),
+	description = S("Daffodil"),
 	tiles = {"cropocalypse_daffodil.png"},
 	inventory_image = "cropocalypse_daffodil.png",
 	wield_image = "cropocalypse_daffodil.png",
@@ -406,7 +407,7 @@ minetest.register_decoration({
 
 -- Dwarf Sunflower
 minetest.register_node("cropocalypse:dwarf_sunflower", {
-	description = ("Dwarf Sunflower"),
+	description = S("Dwarf Sunflower"),
 	tiles = {"cropocalypse_dwarf_sunflower.png"},
 	inventory_image = "cropocalypse_dwarf_sunflower.png",
 	wield_image = "cropocalypse_dwarf_sunflower.png",
@@ -446,7 +447,7 @@ minetest.register_decoration({
 
 -- Fireweed
 minetest.register_node("cropocalypse:fireweed", {
-	description = ("Fireweed"),
+	description = S("Fireweed"),
 	tiles = {"cropocalypse_fireweed.png"},
 	inventory_image = "cropocalypse_fireweed.png",
 	wield_image = "cropocalypse_fireweed.png",
@@ -486,7 +487,7 @@ minetest.register_decoration({
 
 -- Flowering Fern
 minetest.register_node("cropocalypse:flowering_fern", {
-	description = ("Flowering Fern"),
+	description = S("Flowering Fern"),
 	tiles = {"cropocalypse_flowering_fern.png"},
 	inventory_image = "cropocalypse_flowering_fern.png",
 	wield_image = "cropocalypse_flowering_fern.png",
@@ -526,7 +527,7 @@ minetest.register_decoration({
 
 -- Iris
 minetest.register_node("cropocalypse:iris", {
-	description = ("Iris"),
+	description = S("Iris"),
 	tiles = {"cropocalypse_iris.png"},
 	inventory_image = "cropocalypse_iris.png",
 	wield_image = "cropocalypse_iris.png",
@@ -566,7 +567,7 @@ minetest.register_decoration({
 
 -- Lupine
 minetest.register_node("cropocalypse:lupine", {
-	description = ("Lupine"),
+	description = S("Lupine"),
 	tiles = {"cropocalypse_lupine.png"},
 	inventory_image = "cropocalypse_lupine.png",
 	wield_image = "cropocalypse_lupine.png",
@@ -606,7 +607,7 @@ minetest.register_decoration({
 
 -- Marigold
 minetest.register_node("cropocalypse:marigold", {
-	description = ("Marigold"),
+	description = S("Marigold"),
 	tiles = {"cropocalypse_marigold.png"},
 	inventory_image = "cropocalypse_marigold.png",
 	wield_image = "cropocalypse_marigold.png",
@@ -646,7 +647,7 @@ minetest.register_decoration({
 
 -- Morning Glory
 minetest.register_node("cropocalypse:morning_glory", {
-	description = ("Morning Glory"),
+	description = S("Morning Glory"),
 	tiles = {"cropocalypse_morning_glory.png"},
 	inventory_image = "cropocalypse_morning_glory.png",
 	wield_image = "cropocalypse_morning_glory.png",
@@ -686,7 +687,7 @@ minetest.register_decoration({
 
 -- Nasturtium
 minetest.register_node("cropocalypse:nasturtium", {
-	description = ("Nasturtium"),
+	description = S("Nasturtium"),
 	tiles = {"cropocalypse_nasturtium.png"},
 	inventory_image = "cropocalypse_nasturtium.png",
 	wield_image = "cropocalypse_nasturtium.png",
@@ -726,7 +727,7 @@ minetest.register_decoration({
 
 -- Nightshade
 minetest.register_node("cropocalypse:nightshade", {
-	description = ("Nightshade"),
+	description = S("Nightshade"),
 	tiles = {"cropocalypse_nightshade.png"},
 	inventory_image = "cropocalypse_nightshade.png",
 	wield_image = "cropocalypse_nightshade.png",
@@ -766,7 +767,7 @@ minetest.register_decoration({
 
 -- Pansy
 minetest.register_node("cropocalypse:pansy", {
-	description = ("Pansy"),
+	description = S("Pansy"),
 	tiles = {"cropocalypse_pansy.png"},
 	inventory_image = "cropocalypse_pansy.png",
 	wield_image = "cropocalypse_pansy.png",
@@ -806,7 +807,7 @@ minetest.register_decoration({
 
 -- Peace Lily
 minetest.register_node("cropocalypse:peace_lily", {
-	description = ("Peace Lily"),
+	description = S("Peace Lily"),
 	tiles = {"cropocalypse_peace_lily.png"},
 	inventory_image = "cropocalypse_peace_lily.png",
 	wield_image = "cropocalypse_peace_lily.png",
@@ -846,7 +847,7 @@ minetest.register_decoration({
 
 -- Poinsettia
 minetest.register_node("cropocalypse:poinsettia", {
-	description = ("Poinsettia"),
+	description = S("Poinsettia"),
 	tiles = {"cropocalypse_poinsettia.png"},
 	inventory_image = "cropocalypse_poinsettia.png",
 	wield_image = "cropocalypse_poinsettia.png",
@@ -886,7 +887,7 @@ minetest.register_decoration({
 
 -- Prickly Rose
 minetest.register_node("cropocalypse:prickly_rose", {
-	description = ("Prickly Rose"),
+	description = S("Prickly Rose"),
 	tiles = {"cropocalypse_prickly_rose.png"},
 	inventory_image = "cropocalypse_prickly_rose.png",
 	wield_image = "cropocalypse_prickly_rose.png",
@@ -926,7 +927,7 @@ minetest.register_decoration({
 
 -- Rafflesia
 minetest.register_node("cropocalypse:rafflesia", {
-	description = ("Rafflesia"),
+	description = S("Rafflesia"),
 	tiles = {"cropocalypse_rafflesia.png"},
 	inventory_image = "cropocalypse_rafflesia.png",
 	wield_image = "cropocalypse_rafflesia.png",
@@ -965,7 +966,7 @@ minetest.register_decoration({
 
 -- Skunk Cabbage
 minetest.register_node("cropocalypse:skunk_cabbage", {
-	description = ("Skunk Cabbage"),
+	description = S("Skunk Cabbage"),
 	tiles = {"cropocalypse_skunk_cabbage.png"},
 	inventory_image = "cropocalypse_skunk_cabbage.png",
 	wield_image = "cropocalypse_skunk_cabbage.png",
@@ -1005,7 +1006,7 @@ minetest.register_decoration({
 
 -- Squirrel Tail
 minetest.register_node("cropocalypse:squirrel_tail", {
-	description = ("Squirrel Tail"),
+	description = S("Squirrel Tail"),
 	tiles = {"cropocalypse_squirrel_tail.png"},
 	inventory_image = "cropocalypse_squirrel_tail.png",
 	wield_image = "cropocalypse_squirrel_tail.png",
@@ -1045,7 +1046,7 @@ minetest.register_decoration({
 
 -- Tundra Cotton
 minetest.register_node("cropocalypse:tundra_cotton", {
-	description = ("Tundra Cotton"),
+	description = S("Tundra Cotton"),
 	tiles = {"cropocalypse_tundra_cotton.png"},
 	inventory_image = "cropocalypse_tundra_cotton.png",
 	wield_image = "cropocalypse_tundra_cotton.png",
@@ -1085,7 +1086,7 @@ minetest.register_decoration({
 
 -- White Lily
 minetest.register_node("cropocalypse:white_lily", {
-	description = ("White Lily"),
+	description = S("White Lily"),
 	tiles = {"cropocalypse_white_lily.png"},
 	inventory_image = "cropocalypse_white_lily.png",
 	wield_image = "cropocalypse_white_lily.png",
@@ -1125,7 +1126,7 @@ minetest.register_decoration({
 
 -- Whorled Lousewort
 minetest.register_node("cropocalypse:whorled_lousewort", {
-	description = ("Whorled Lousewort"),
+	description = S("Whorled Lousewort"),
 	tiles = {"cropocalypse_whorled_lousewort.png"},
 	inventory_image = "cropocalypse_whorled_lousewort.png",
 	wield_image = "cropocalypse_whorled_lousewort.png",
@@ -1165,7 +1166,7 @@ minetest.register_decoration({
 
 -- Wild Celery
 minetest.register_node("cropocalypse:wild_celery", {
-	description = ("Wild Celery"),
+	description = S("Wild Celery"),
 	tiles = {"cropocalypse_wild_celery.png"},
 	inventory_image = "cropocalypse_wild_celery.png",
 	wield_image = "cropocalypse_wild_celery.png",
@@ -1205,7 +1206,7 @@ minetest.register_decoration({
 
 -- Wild Wheat
 minetest.register_node("cropocalypse:wild_wheat", {
-	description = ("Wild Wheat"),
+	description = S("Wild Wheat"),
 	tiles = {"cropocalypse_wild_wheat.png"},
 	inventory_image = "cropocalypse_wild_wheat.png",
 	wield_image = "cropocalypse_wild_wheat.png",
@@ -1245,7 +1246,7 @@ minetest.register_decoration({
 
 -- Yarrow
 minetest.register_node("cropocalypse:yarrow", {
-	description = ("Yarrow"),
+	description = S("Yarrow"),
 	tiles = {"cropocalypse_yarrow.png"},
 	inventory_image = "cropocalypse_yarrow.png",
 	wield_image = "cropocalypse_yarrow.png",

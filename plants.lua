@@ -1,11 +1,12 @@
 -- cropocalypse/plants.lua
+local S = core.get_translator("cropocalypse")
 
 -- Registers crops and fungi along with their initial drop
 
 -- Register Wild Carrot Node
 
 minetest.register_node("cropocalypse:carrot_wild", {
-	description = ("Wild Carrot"),
+	description = S("Wild Carrot"),
 	drawtype = "plantlike",
 	waving = 1,
 	tiles = {"cropocalypse_carrot_wild.png"},
@@ -48,8 +49,8 @@ minetest.register_decoration({
 -- Carrot Plant Farming
 
 farming.register_plant("cropocalypse:carrot", {
-	description = ("Carrot Seed"),
-	harvest_description = ("Carrot Root"),
+	description = S("Carrot Seed"),
+	harvest_description = S("Carrot Root"),
 	paramtype2 = "meshoptions",
 	inventory_image = "cropocalypse_carrot_seed.png",
 	steps = 8,
@@ -63,7 +64,7 @@ farming.register_plant("cropocalypse:carrot", {
 -- Carrot Item Data
 
 minetest.register_craftitem("cropocalypse:carrot", {
-	description = ("Carrot"),
+	description = S("Carrot"),
 	inventory_image = "cropocalypse_carrot.png",
 	wield_image = "cropocalypse_carrot.png",
 	paramtype = "meshoptions",
@@ -74,7 +75,7 @@ minetest.register_craftitem("cropocalypse:carrot", {
 -- Register Wild Potato Node
 
 minetest.register_node("cropocalypse:potato_wild", {
-	description = ("Wild Potato"),
+	description = S("Wild Potato"),
 	drawtype = "plantlike",
 	waving = 1,
 	tiles = {"cropocalypse_potato_wild.png"},
@@ -117,8 +118,8 @@ minetest.register_decoration({
 -- Sweet Potato Plant Farming
 
 farming.register_plant("cropocalypse:potato", {
-	description = ("Potato Seed"),
-	harvest_description = ("Sweet Potato"),
+	description = S("Potato Seed"),
+	harvest_description = S("Sweet Potato"),
 	paramtype2 = "meshoptions",
 	inventory_image = "cropocalypse_potato_seed.png",
 	steps = 8,
@@ -132,7 +133,7 @@ farming.register_plant("cropocalypse:potato", {
 -- Sweet Potato Item Data
 
 minetest.register_craftitem("cropocalypse:potato", {
-	description = ("Sweet Potato"),
+	description = S("Sweet Potato"),
 	inventory_image = "cropocalypse_potato.png",
 	wield_image = "cropocalypse_potato.png",
 	paramtype = "meshoptions",
@@ -143,7 +144,7 @@ minetest.register_craftitem("cropocalypse:potato", {
 -- Register Wild Beet Node
 
 minetest.register_node("cropocalypse:beet_wild", {
-	description = ("Wild Beet"),
+	description = S("Wild Beet"),
 	drawtype = "plantlike",
 	waving = 1,
 	tiles = {"cropocalypse_beet_wild.png"},
@@ -186,8 +187,8 @@ minetest.register_decoration({
 -- Sugar Beet Plant Farming
 
 farming.register_plant("cropocalypse:beet", {
-	description = ("Beet Seed"),
-	harvest_description = ("Sugar Beet"),
+	description = S("Beet Seed"),
+	harvest_description = S("Sugar Beet"),
 	inventory_image = "cropocalypse_beet_seed.png",
 	steps = 8,
 	minlight = 13,
@@ -199,7 +200,7 @@ farming.register_plant("cropocalypse:beet", {
 -- Sugar Beet Item Data
 
 minetest.register_craftitem("cropocalypse:beet", {
-	description = ("Sugar Beet"),
+	description = S("Sugar Beet"),
 	inventory_image = "cropocalypse_beet.png",
 	wield_image = "cropocalypse_beet.png",
 	paramtype = "meshoptions",
@@ -210,7 +211,7 @@ minetest.register_craftitem("cropocalypse:beet", {
 -- Register Wild Soybean Node
 
 minetest.register_node("cropocalypse:soybean_wild", {
-	description = ("Wild Soybean"),
+	description = S("Wild Soybean"),
 	drawtype = "plantlike",
 	waving = 1,
 	tiles = {"cropocalypse_soybean_wild.png"},
@@ -253,8 +254,8 @@ minetest.register_decoration({
 -- Soybean Plant Farming
 
 farming.register_plant("cropocalypse:soybean", {
-	description = ("Soybean Seed"),
-	harvest_description = ("Soybean"),
+	description = S("Soybean Seed"),
+	harvest_description = S("Soybean"),
 	inventory_image = "cropocalypse_soybean_seed.png",
 	steps = 8,
 	minlight = 13,
@@ -266,7 +267,7 @@ farming.register_plant("cropocalypse:soybean", {
 -- Soybean Item Data
 
 minetest.register_craftitem("cropocalypse:soybean", {
-	description = ("Soybean"),
+	description = S("Soybean"),
 	inventory_image = "cropocalypse_soybean.png",
 	wield_image = "cropocalypse_soybean.png",
 	paramtype = "meshoptions",
@@ -277,7 +278,7 @@ minetest.register_craftitem("cropocalypse:soybean", {
 -- Register Wild Garlic Node
 
 minetest.register_node("cropocalypse:garlic_wild", {
-	description = ("Wild Garlic"),
+	description = S("Wild Garlic"),
 	drawtype = "plantlike",
 	waving = 1,
 	tiles = {"cropocalypse_garlic_wild.png"},
@@ -320,8 +321,8 @@ minetest.register_decoration({
 -- Garlic Plant Farming
 
 farming.register_plant("cropocalypse:garlic", {
-	description = ("Garlic Seed"),
-	harvest_description = ("Garlic"),
+	description = S("Garlic Seed"),
+	harvest_description = S("Garlic"),
 	paramtype2 = "meshoptions",
 	inventory_image = "cropocalypse_garlic_seed.png",
 	steps = 8,
@@ -335,7 +336,7 @@ farming.register_plant("cropocalypse:garlic", {
 -- Garlic Item Data
 
 minetest.register_craftitem("cropocalypse:garlic", {
-	description = ("Garlic"),
+	description = S("Garlic"),
 	inventory_image = "cropocalypse_garlic.png",
 	wield_image = "cropocalypse_garlic.png",
 	paramtype = "meshoptions",
@@ -346,7 +347,7 @@ minetest.register_craftitem("cropocalypse:garlic", {
 -- Register Wild Flax Node
 
 minetest.register_node("cropocalypse:flax_wild", {
-	description = ("Wild Flax"),
+	description = S("Wild Flax"),
 	drawtype = "plantlike",
 	waving = 1,
 	tiles = {"cropocalypse_flax_wild.png"},
@@ -389,8 +390,8 @@ minetest.register_decoration({
 -- Flax Plant Farming
 
 farming.register_plant("cropocalypse:flax", {
-	description = ("Flax Seed"),
-	harvest_description = ("Flax"),
+	description = S("Flax Seed"),
+	harvest_description = S("Flax"),
 	inventory_image = "cropocalypse_flax_seed.png",
 	steps = 8,
 	minlight = 13,
@@ -403,7 +404,7 @@ farming.register_plant("cropocalypse:flax", {
 -- Flax Item Data
 
 minetest.register_craftitem("cropocalypse:flax", {
-	description = ("Flax"),
+	description = S("Flax"),
 	inventory_image = "cropocalypse_flax.png",
 	wield_image = "cropocalypse_flax.png",
 	paramtype = "meshoptions",
@@ -484,8 +485,8 @@ minetest.register_decoration({
 -- Pumpkin Plant Farming
 
 farming.register_plant("cropocalypse:pumpkin_plant", {
-	description = ("Pumpkin Seed"),
-	harvest_description = ("Tiny Pumpkin"),
+	description = S("Pumpkin Seed"),
+	harvest_description = S("Tiny Pumpkin"),
 	inventory_image = "cropocalypse_pumpkin_seed.png",
 	steps = 8,
 	minlight = 13,
@@ -589,7 +590,7 @@ minetest.register_abm({
 
 -- Pumpkin Chunk Item Data
 minetest.register_craftitem("cropocalypse:pumpkin_chunk", {
-	description = ("Pumpkin Chunk"),
+	description = S("Pumpkin Chunk"),
 	inventory_image = "cropocalypse_pumpkin_chunk.png",
 	wield_image = "cropocalypse_pumpkin_chunk.png",
 	paramtype = "meshoptions",
@@ -700,8 +701,8 @@ minetest.register_decoration({
 -- Watermelon Plant Farming
 
 farming.register_plant("cropocalypse:watermelon_plant", {
-	description = ("Watermelon Seed"),
-	harvest_description = ("Tiny Watermelon"),
+	description = S("Watermelon Seed"),
+	harvest_description = S("Tiny Watermelon"),
 	inventory_image = "cropocalypse_watermelon_seed.png",
 	steps = 8,
 	minlight = 13,
@@ -806,7 +807,7 @@ minetest.register_abm({
 -- Watermelon Slice Item Data
 
 minetest.register_craftitem("cropocalypse:watermelon_slice", {
-	description = ("Watermelon Slice"),
+	description = S("Watermelon Slice"),
 	inventory_image = "cropocalypse_watermelon_slice.png",
 	wield_image = "cropocalypse_watermelon_slice.png",
 	paramtype = "meshoptions",
@@ -855,7 +856,7 @@ minetest.register_node("cropocalypse:watermelon_plant", {
 -- Register Wild Corn Node
 
 minetest.register_node("cropocalypse:corn_wild", {
-	description = ("Wild Corn"),
+	description = S("Wild Corn"),
 	drawtype = "plantlike",
 	waving = 1,
 	visual_scale = 3,
@@ -899,8 +900,8 @@ minetest.register_decoration({
 -- Corn Plant Farming
 
 farming.register_plant("cropocalypse:corn", {
-	description = ("Corn Seed"),
-	harvest_description = ("Corn"),
+	description = S("Corn Seed"),
+	harvest_description = S("Corn"),
 	paramtype2 = "meshoptions",
 	inventory_image = "cropocalypse_corn_seed.png",
 	steps = 8,
@@ -931,7 +932,7 @@ minetest.override_item("cropocalypse:corn_8", {
 -- Corn Item Data
 
 minetest.register_craftitem("cropocalypse:corn", {
-	description = ("Corn"),
+	description = S("Corn"),
 	inventory_image = "cropocalypse_corn.png",
 	wield_image = "cropocalypse_corn.png",
 	paramtype = "meshoptions",
@@ -942,7 +943,7 @@ minetest.register_craftitem("cropocalypse:corn", {
 -- Register Wild Cocao Node
 
 minetest.register_node("cropocalypse:cocao_wild", {
-	description = ("Wild Cocao"),
+	description = S("Wild Cocao"),
 	drawtype = "plantlike",
 	waving = 1,
 	visual_scale = 3,
@@ -986,8 +987,8 @@ minetest.register_decoration({
 -- Cocao Plant Farming
 
 farming.register_plant("cropocalypse:cocao", {
-	description = ("Cocao Seed"),
-	harvest_description = ("Cocao"),
+	description = S("Cocao Seed"),
+	harvest_description = S("Cocao"),
 	inventory_image = "cropocalypse_cocao_seed.png",
 	steps = 8,
 	minlight = 13,
@@ -1016,7 +1017,7 @@ minetest.override_item("cropocalypse:cocao_8", {
 -- Cocao Item Data
 
 minetest.register_craftitem("cropocalypse:cocao", {
-	description = ("Cocao"),
+	description = S("Cocao"),
 	inventory_image = "cropocalypse_cocao.png",
 	wield_image = "cropocalypse_cocao.png",
 	paramtype = "meshoptions",
@@ -1027,7 +1028,7 @@ minetest.register_craftitem("cropocalypse:cocao", {
 -- Register Wild Morel Mushroom Node
 
 minetest.register_node("cropocalypse:morel_mushroom_wild", {
-	description = ("Wild Morel Mushroom"),
+	description = S("Wild Morel Mushroom"),
 	drawtype = "plantlike",
 	waving = 0,
 	tiles = {"cropocalypse_morel_mushroom_wild.png"},
@@ -1070,8 +1071,8 @@ minetest.register_decoration({
 -- Morel Mushroom Fungus Farming
 
 farming.register_plant("cropocalypse:morel_mushroom", {
-	description = ("Morel Mushroom Spore"),
-	harvest_description = ("Morel Mushroom"),
+	description = S("Morel Mushroom Spore"),
+	harvest_description = S("Morel Mushroom"),
 	paramtype2 = "meshoptions",
 	inventory_image = "cropocalypse_morel_mushroom_seed.png",
 	steps = 8,
@@ -1085,7 +1086,7 @@ farming.register_plant("cropocalypse:morel_mushroom", {
 -- Morel Mushroom Item Data
 
 minetest.register_craftitem("cropocalypse:morel_mushroom", {
-	description = ("Morel Mushroom"),
+	description = S("Morel Mushroom"),
 	inventory_image = "cropocalypse_morel_mushroom.png",
 	wield_image = "cropocalypse_morel_mushroom.png",
 	paramtype = "meshoptions",
@@ -1096,7 +1097,7 @@ minetest.register_craftitem("cropocalypse:morel_mushroom", {
 -- Register Wild Oyster Mushroom Node
 
 minetest.register_node("cropocalypse:oyster_mushroom_wild", {
-	description = ("Wild Oyster Mushroom"),
+	description = S("Wild Oyster Mushroom"),
 	drawtype = "plantlike",
 	waving = 0,
 	tiles = {"cropocalypse_oyster_mushroom_wild.png"},
@@ -1139,8 +1140,8 @@ minetest.register_decoration({
 -- Oyster Mushroom Fungus Farming
 
 farming.register_plant("cropocalypse:oyster_mushroom", {
-	description = ("Oyster Mushroom Spore"),
-	harvest_description = ("Oyster Mushroom"),
+	description = S("Oyster Mushroom Spore"),
+	harvest_description = S("Oyster Mushroom"),
 	paramtype2 = "meshoptions",
 	inventory_image = "cropocalypse_oyster_mushroom_seed.png",
 	steps = 8,
@@ -1154,7 +1155,7 @@ farming.register_plant("cropocalypse:oyster_mushroom", {
 -- Oyster Mushroom Item Data
 
 minetest.register_craftitem("cropocalypse:oyster_mushroom", {
-	description = ("Oyster Mushroom"),
+	description = S("Oyster Mushroom"),
 	inventory_image = "cropocalypse_oyster_mushroom.png",
 	wield_image = "cropocalypse_oyster_mushroom.png",
 	paramtype = "meshoptions",
@@ -1165,7 +1166,7 @@ minetest.register_craftitem("cropocalypse:oyster_mushroom", {
 -- Register Wild Shiitake Mushroom Node
 
 minetest.register_node("cropocalypse:shiitake_mushroom_wild", {
-	description = ("Wild Skiitake Mushroom"),
+	description = S("Wild Skiitake Mushroom"),
 	drawtype = "plantlike",
 	waving = 0,
 	tiles = {"cropocalypse_shiitake_mushroom_wild.png"},
@@ -1208,8 +1209,8 @@ minetest.register_decoration({
 -- Shiitake Mushroom Fungus Farming
 
 farming.register_plant("cropocalypse:shiitake_mushroom", {
-	description = ("Shiitake Mushroom Spore"),
-	harvest_description = ("Shiitake Mushroom"),
+	description = S("Shiitake Mushroom Spore"),
+	harvest_description = S("Shiitake Mushroom"),
 	paramtype2 = "meshoptions",
 	inventory_image = "cropocalypse_shiitake_mushroom_seed.png",
 	steps = 8,
@@ -1223,7 +1224,7 @@ farming.register_plant("cropocalypse:shiitake_mushroom", {
 -- Shiitake Mushroom Item Data
 
 minetest.register_craftitem("cropocalypse:shiitake_mushroom", {
-	description = ("Shiitake Mushroom"),
+	description = S("Shiitake Mushroom"),
 	inventory_image = "cropocalypse_shiitake_mushroom.png",
 	wield_image = "cropocalypse_shiitake_mushroom.png",
 	paramtype = "meshoptions",
@@ -1234,7 +1235,7 @@ minetest.register_craftitem("cropocalypse:shiitake_mushroom", {
 -- Register Wild Button Mushroom Node
 
 minetest.register_node("cropocalypse:button_mushroom_wild", {
-	description = ("Wild Button Mushroom"),
+	description = S("Wild Button Mushroom"),
 	drawtype = "plantlike",
 	waving = 0,
 	tiles = {"cropocalypse_button_mushroom_wild.png"},
@@ -1277,8 +1278,8 @@ minetest.register_decoration({
 -- Button Mushroom Fungus Farming
 
 farming.register_plant("cropocalypse:button_mushroom", {
-	description = ("Button Mushroom Spore"),
-	harvest_description = ("Button Mushroom"),
+	description = S("Button Mushroom Spore"),
+	harvest_description = S("Button Mushroom"),
 	paramtype2 = "meshoptions",
 	inventory_image = "cropocalypse_button_mushroom_seed.png",
 	steps = 8,
@@ -1292,7 +1293,7 @@ farming.register_plant("cropocalypse:button_mushroom", {
 -- Button Mushroom Item Data
 
 minetest.register_craftitem("cropocalypse:button_mushroom", {
-	description = ("Button Mushroom"),
+	description = S("Button Mushroom"),
 	inventory_image = "cropocalypse_button_mushroom.png",
 	wield_image = "cropocalypse_button_mushroom.png",
 	paramtype = "meshoptions",
