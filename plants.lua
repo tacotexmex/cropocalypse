@@ -1,4 +1,5 @@
 -- cropocalypse/plants.lua
+local S = core.get_translator("cropocalypse")
 
 -- Registers crops and fungi along with their initial drop
 

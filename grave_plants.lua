@@ -1,4 +1,5 @@
 -- cropocalypse/decorative_plants.lua
+local S = core.get_translator("cropocalypse")
 
 -- Adds Various Decorative Plants To The World
 -- They Only Multiply On Close By Fresh Dirt

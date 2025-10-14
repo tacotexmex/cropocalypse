@@ -1,4 +1,5 @@
 -- cropocalypse/crafting.lua
+local S = core.get_translator("cropocalypse")
 
 -- These Are The Crafting Recipes
 

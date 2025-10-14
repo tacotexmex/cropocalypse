@@ -4,7 +4,6 @@
 -- Sorted The Code To Be A Little More Organized
 
 local path = minetest.get_modpath("cropocalypse")
-local S = core.get_translator("cropocalypse")
 
 dofile(path .. "/crafting.lua")
 dofile(path .. "/decorative_plants.lua")

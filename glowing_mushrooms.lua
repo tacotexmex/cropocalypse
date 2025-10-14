@@ -1,4 +1,5 @@
 -- cropocalypse/glowing_mushrooms.lua
+local S = core.get_translator("cropocalypse")
 
 -- Adds Some Glowing Mushrooms That Originate In Rainforests
 -- They Only Multiply On Their Respective Ores
