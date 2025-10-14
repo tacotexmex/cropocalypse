@@ -7,7 +7,7 @@
 -- This One Multiplies On Coal Ore
 
 minetest.register_node("cropocalypse:saucer_mushroom", {
-	description = ("Saucer Mushroom"),
+	description = S("Saucer Mushroom"),
 	tiles = {"cropocalypse_saucer_mushroom.png"},
 	inventory_image = "cropocalypse_saucer_mushroom.png",
 	wield_image = "cropocalypse_saucer_mushroom.png",
@@ -107,7 +107,7 @@ end
 -- This One Multipleis On Iron Ore
 
 minetest.register_node("cropocalypse:puffed_mushroom", {
-	description = ("Puffed Mushroom"),
+	description = S("Puffed Mushroom"),
 	tiles = {"cropocalypse_puffed_mushroom.png"},
 	inventory_image = "cropocalypse_puffed_mushroom.png",
 	wield_image = "cropocalypse_puffed_mushroom.png",
@@ -207,7 +207,7 @@ end
 -- This One Multiplies On Tin Ore
 
 minetest.register_node("cropocalypse:veiled_mushroom", {
-	description = ("Veiled Mushroom"),
+	description = S("Veiled Mushroom"),
 	tiles = {"cropocalypse_veiled_mushroom.png"},
 	inventory_image = "cropocalypse_veiled_mushroom.png",
 	wield_image = "cropocalypse_veiled_mushroom.png",
@@ -307,7 +307,7 @@ end
 -- This One Multiplies On Copper Ore
 
 minetest.register_node("cropocalypse:slimy_mushroom", {
-	description = ("Slimy Mushroom"),
+	description = S("Slimy Mushroom"),
 	tiles = {"cropocalypse_slimy_mushroom.png"},
 	inventory_image = "cropocalypse_slimy_mushroom.png",
 	wield_image = "cropocalypse_slimy_mushroom.png",
@@ -407,7 +407,7 @@ end
 -- This One Mulriplies On Gold Ore
 
 minetest.register_node("cropocalypse:king_mushroom", {
-	description = ("King Mushroom"),
+	description = S("King Mushroom"),
 	tiles = {"cropocalypse_king_mushroom.png"},
 	inventory_image = "cropocalypse_king_mushroom.png",
 	wield_image = "cropocalypse_king_mushroom.png",
@@ -507,7 +507,7 @@ end
 -- This One Multiplies On Diamond Ore
 
 minetest.register_node("cropocalypse:melting_mushroom", {
-	description = ("Melting Mushroom"),
+	description = S("Melting Mushroom"),
 	tiles = {"cropocalypse_melting_mushroom.png"},
 	inventory_image = "cropocalypse_melting_mushroom.png",
 	wield_image = "cropocalypse_melting_mushroom.png",
@@ -607,7 +607,7 @@ end
 -- This One Multiplies On Mese Ore
 
 minetest.register_node("cropocalypse:magic_mushroom", {
-	description = ("Magic Mushroom"),
+	description = S("Magic Mushroom"),
 	tiles = {"cropocalypse_magic_mushroom.png"},
 	inventory_image = "cropocalypse_magic_mushroom.png",
 	wield_image = "cropocalypse_magic_mushroom.png",

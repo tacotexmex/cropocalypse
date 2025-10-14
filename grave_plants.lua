@@ -6,7 +6,7 @@
 
 -- Black Rose
 minetest.register_node("cropocalypse:black_rose", {
-	description = ("Black Rose"),
+	description = S("Black Rose"),
 	tiles = {"cropocalypse_black_rose.png"},
 	inventory_image = "cropocalypse_black_rose.png",
 	wield_image = "cropocalypse_black_rose.png",
@@ -47,7 +47,7 @@ minetest.register_decoration({
 -- Dead Tree
 
 minetest.register_node("cropocalypse:dead_tree", {
-	description = ("Dead Tree"),
+	description = S("Dead Tree"),
 	tiles = {"cropocalypse_dead_tree.png"},
 	inventory_image = "cropocalypse_dead_tree.png",
 	wield_image = "cropocalypse_dead_tree.png",
@@ -88,7 +88,7 @@ minetest.register_decoration({
 
 -- Devils Club
 minetest.register_node("cropocalypse:devils_club", {
-	description = ("Devils Club"),
+	description = S("Devils Club"),
 	tiles = {"cropocalypse_devils_club.png"},
 	inventory_image = "cropocalypse_devils_club.png",
 	wield_image = "cropocalypse_devils_club.png",
@@ -128,7 +128,7 @@ minetest.register_decoration({
 
 -- Deadly Amanita
 minetest.register_node("cropocalypse:deadly_amanita", {
-	description = ("Deadly Amanita"),
+	description = S("Deadly Amanita"),
 	tiles = {"cropocalypse_deadly_amanita.png"},
 	inventory_image = "cropocalypse_deadly_amanita.png",
 	wield_image = "cropocalypse_deadly_amanita.png",
@@ -168,7 +168,7 @@ minetest.register_decoration({
 
 -- Undead Grass
 minetest.register_node("cropocalypse:undead_grass", {
-	description = ("Undead Grass"),
+	description = S("Undead Grass"),
 	tiles = {"cropocalypse_undead_grass.png"},
 	inventory_image = "cropocalypse_undead_grass.png",
 	wield_image = "cropocalypse_undead_grass.png",
