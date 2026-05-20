@@ -13,6 +13,7 @@ minetest.register_node("cropocalypse:saucer_mushroom", {
 	inventory_image = "cropocalypse_saucer_mushroom.png",
 	wield_image = "cropocalypse_saucer_mushroom.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
@@ -31,6 +32,7 @@ minetest.register_node("cropocalypse:saucer_mushroom", {
 minetest.register_decoration({
 	name = "cropocalypse:saucer_mushroom",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_rainforest_litter"},
 	sidelen = 16,
 	noise_params = {
@@ -113,6 +115,7 @@ minetest.register_node("cropocalypse:puffed_mushroom", {
 	inventory_image = "cropocalypse_puffed_mushroom.png",
 	wield_image = "cropocalypse_puffed_mushroom.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
@@ -131,6 +134,7 @@ minetest.register_node("cropocalypse:puffed_mushroom", {
 minetest.register_decoration({
 	name = "cropocalypse:puffed_mushroom",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_rainforest_litter"},
 	sidelen = 16,
 	noise_params = {
@@ -213,6 +217,7 @@ minetest.register_node("cropocalypse:veiled_mushroom", {
 	inventory_image = "cropocalypse_veiled_mushroom.png",
 	wield_image = "cropocalypse_veiled_mushroom.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
@@ -231,6 +236,7 @@ minetest.register_node("cropocalypse:veiled_mushroom", {
 minetest.register_decoration({
 	name = "cropocalypse:veiled_mushroom",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_rainforest_litter"},
 	sidelen = 16,
 	noise_params = {
@@ -313,6 +319,7 @@ minetest.register_node("cropocalypse:slimy_mushroom", {
 	inventory_image = "cropocalypse_slimy_mushroom.png",
 	wield_image = "cropocalypse_slimy_mushroom.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
@@ -331,6 +338,7 @@ minetest.register_node("cropocalypse:slimy_mushroom", {
 minetest.register_decoration({
 	name = "cropocalypse:slimy_mushroom",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_rainforest_litter"},
 	sidelen = 16,
 	noise_params = {
@@ -413,6 +421,7 @@ minetest.register_node("cropocalypse:king_mushroom", {
 	inventory_image = "cropocalypse_king_mushroom.png",
 	wield_image = "cropocalypse_king_mushroom.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
@@ -431,6 +440,7 @@ minetest.register_node("cropocalypse:king_mushroom", {
 minetest.register_decoration({
 	name = "cropocalypse:king_mushroom",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_rainforest_litter"},
 	sidelen = 16,
 	noise_params = {
@@ -513,6 +523,7 @@ minetest.register_node("cropocalypse:melting_mushroom", {
 	inventory_image = "cropocalypse_melting_mushroom.png",
 	wield_image = "cropocalypse_melting_mushroom.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
@@ -531,6 +542,7 @@ minetest.register_node("cropocalypse:melting_mushroom", {
 minetest.register_decoration({
 	name = "cropocalypse:melting_mushroom",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_rainforest_litter"},
 	sidelen = 16,
 	noise_params = {
@@ -613,6 +625,7 @@ minetest.register_node("cropocalypse:magic_mushroom", {
 	inventory_image = "cropocalypse_magic_mushroom.png",
 	wield_image = "cropocalypse_magic_mushroom.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
@@ -631,6 +644,7 @@ minetest.register_node("cropocalypse:magic_mushroom", {
 minetest.register_decoration({
 	name = "cropocalypse:magic_mushroom",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_rainforest_litter"},
 	sidelen = 16,
 	noise_params = {

@@ -12,6 +12,7 @@ minetest.register_node("cropocalypse:beach_pea", {
 	inventory_image = "cropocalypse_beach_pea.png",
 	wield_image = "cropocalypse_beach_pea.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -29,6 +30,7 @@ minetest.register_node("cropocalypse:beach_pea", {
 minetest.register_decoration({
 	name = "cropocalypse:beach_pea",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -52,6 +54,7 @@ minetest.register_node("cropocalypse:bells_of_ireland", {
 	inventory_image = "cropocalypse_bells_of_ireland.png",
 	wield_image = "cropocalypse_bells_of_ireland.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -69,6 +72,7 @@ minetest.register_node("cropocalypse:bells_of_ireland", {
 minetest.register_decoration({
 	name = "cropocalypse:bells_of_ireland",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -92,6 +96,7 @@ minetest.register_node("cropocalypse:bluebell", {
 	inventory_image = "cropocalypse_bluebell.png",
 	wield_image = "cropocalypse_bluebell.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -109,6 +114,7 @@ minetest.register_node("cropocalypse:bluebell", {
 minetest.register_decoration({
 	name = "cropocalypse:bluebell",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -132,6 +138,7 @@ minetest.register_node("cropocalypse:bog_star", {
 	inventory_image = "cropocalypse_bog_star.png",
 	wield_image = "cropocalypse_bog_star.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -149,6 +156,7 @@ minetest.register_node("cropocalypse:bog_star", {
 minetest.register_decoration({
 	name = "cropocalypse:bog_star",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -172,6 +180,7 @@ minetest.register_node("cropocalypse:buttercup", {
 	inventory_image = "cropocalypse_buttercup.png",
 	wield_image = "cropocalypse_buttercup.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -189,6 +198,7 @@ minetest.register_node("cropocalypse:buttercup", {
 minetest.register_decoration({
 	name = "cropocalypse:buttercup",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -212,6 +222,7 @@ minetest.register_node("cropocalypse:catchfly", {
 	inventory_image = "cropocalypse_catchfly.png",
 	wield_image = "cropocalypse_catchfly.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -229,6 +240,7 @@ minetest.register_node("cropocalypse:catchfly", {
 minetest.register_decoration({
 	name = "cropocalypse:catchfly",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -252,6 +264,7 @@ minetest.register_node("cropocalypse:cattail", {
 	inventory_image = "cropocalypse_cattail.png",
 	wield_image = "cropocalypse_cattail.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -269,6 +282,7 @@ minetest.register_node("cropocalypse:cattail", {
 minetest.register_decoration({
 	name = "cropocalypse:cattail",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -292,6 +306,7 @@ minetest.register_node("cropocalypse:chocolate_lily", {
 	inventory_image = "cropocalypse_chocolate_lily.png",
 	wield_image = "cropocalypse_chocolate_lily.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -309,6 +324,7 @@ minetest.register_node("cropocalypse:chocolate_lily", {
 minetest.register_decoration({
 	name = "cropocalypse:chocolate_lily",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -332,6 +348,7 @@ minetest.register_node("cropocalypse:columbine", {
 	inventory_image = "cropocalypse_columbine.png",
 	wield_image = "cropocalypse_columbine.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -349,6 +366,7 @@ minetest.register_node("cropocalypse:columbine", {
 minetest.register_decoration({
 	name = "cropocalypse:columbine",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -372,6 +390,7 @@ minetest.register_node("cropocalypse:daffodil", {
 	inventory_image = "cropocalypse_daffodil.png",
 	wield_image = "cropocalypse_daffodil.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -389,6 +408,7 @@ minetest.register_node("cropocalypse:daffodil", {
 minetest.register_decoration({
 	name = "cropocalypse:daffodil",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -412,6 +432,7 @@ minetest.register_node("cropocalypse:dwarf_sunflower", {
 	inventory_image = "cropocalypse_dwarf_sunflower.png",
 	wield_image = "cropocalypse_dwarf_sunflower.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -429,6 +450,7 @@ minetest.register_node("cropocalypse:dwarf_sunflower", {
 minetest.register_decoration({
 	name = "cropocalypse:dwarf_sunflower",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -452,6 +474,7 @@ minetest.register_node("cropocalypse:fireweed", {
 	inventory_image = "cropocalypse_fireweed.png",
 	wield_image = "cropocalypse_fireweed.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -469,6 +492,7 @@ minetest.register_node("cropocalypse:fireweed", {
 minetest.register_decoration({
 	name = "cropocalypse:fireweed",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -492,6 +516,7 @@ minetest.register_node("cropocalypse:flowering_fern", {
 	inventory_image = "cropocalypse_flowering_fern.png",
 	wield_image = "cropocalypse_flowering_fern.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -509,6 +534,7 @@ minetest.register_node("cropocalypse:flowering_fern", {
 minetest.register_decoration({
 	name = "cropocalypse:flowering_fern",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand","default:permafrost_with_stones","default:permafrost_with_moss"},
 	sidelen = 16,
 	noise_params = {
@@ -532,6 +558,7 @@ minetest.register_node("cropocalypse:iris", {
 	inventory_image = "cropocalypse_iris.png",
 	wield_image = "cropocalypse_iris.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -549,6 +576,7 @@ minetest.register_node("cropocalypse:iris", {
 minetest.register_decoration({
 	name = "cropocalypse:iris",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -572,6 +600,7 @@ minetest.register_node("cropocalypse:lupine", {
 	inventory_image = "cropocalypse_lupine.png",
 	wield_image = "cropocalypse_lupine.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -589,6 +618,7 @@ minetest.register_node("cropocalypse:lupine", {
 minetest.register_decoration({
 	name = "cropocalypse:lupine",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -612,6 +642,7 @@ minetest.register_node("cropocalypse:marigold", {
 	inventory_image = "cropocalypse_marigold.png",
 	wield_image = "cropocalypse_marigold.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -629,6 +660,7 @@ minetest.register_node("cropocalypse:marigold", {
 minetest.register_decoration({
 	name = "cropocalypse:marigold",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -652,6 +684,7 @@ minetest.register_node("cropocalypse:morning_glory", {
 	inventory_image = "cropocalypse_morning_glory.png",
 	wield_image = "cropocalypse_morning_glory.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -669,6 +702,7 @@ minetest.register_node("cropocalypse:morning_glory", {
 minetest.register_decoration({
 	name = "cropocalypse:morning_glory",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -692,6 +726,7 @@ minetest.register_node("cropocalypse:nasturtium", {
 	inventory_image = "cropocalypse_nasturtium.png",
 	wield_image = "cropocalypse_nasturtium.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -709,6 +744,7 @@ minetest.register_node("cropocalypse:nasturtium", {
 minetest.register_decoration({
 	name = "cropocalypse:nasturtium",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -732,6 +768,7 @@ minetest.register_node("cropocalypse:nightshade", {
 	inventory_image = "cropocalypse_nightshade.png",
 	wield_image = "cropocalypse_nightshade.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -749,6 +786,7 @@ minetest.register_node("cropocalypse:nightshade", {
 minetest.register_decoration({
 	name = "cropocalypse:nightshade",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -772,6 +810,7 @@ minetest.register_node("cropocalypse:pansy", {
 	inventory_image = "cropocalypse_pansy.png",
 	wield_image = "cropocalypse_pansy.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -789,6 +828,7 @@ minetest.register_node("cropocalypse:pansy", {
 minetest.register_decoration({
 	name = "cropocalypse:pansy",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -812,6 +852,7 @@ minetest.register_node("cropocalypse:peace_lily", {
 	inventory_image = "cropocalypse_peace_lily.png",
 	wield_image = "cropocalypse_peace_lily.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -829,6 +870,7 @@ minetest.register_node("cropocalypse:peace_lily", {
 minetest.register_decoration({
 	name = "cropocalypse:peace_lily",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -852,6 +894,7 @@ minetest.register_node("cropocalypse:poinsettia", {
 	inventory_image = "cropocalypse_poinsettia.png",
 	wield_image = "cropocalypse_poinsettia.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -869,6 +912,7 @@ minetest.register_node("cropocalypse:poinsettia", {
 minetest.register_decoration({
 	name = "cropocalypse:poinsettia",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -892,6 +936,7 @@ minetest.register_node("cropocalypse:prickly_rose", {
 	inventory_image = "cropocalypse_prickly_rose.png",
 	wield_image = "cropocalypse_prickly_rose.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -909,6 +954,7 @@ minetest.register_node("cropocalypse:prickly_rose", {
 minetest.register_decoration({
 	name = "cropocalypse:prickly_rose",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -932,6 +978,7 @@ minetest.register_node("cropocalypse:rafflesia", {
 	inventory_image = "cropocalypse_rafflesia.png",
 	wield_image = "cropocalypse_rafflesia.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	paramtype = "light",
 	sunlight_propagates = true,
 	walkable = false,
@@ -948,6 +995,7 @@ minetest.register_node("cropocalypse:rafflesia", {
 minetest.register_decoration({
 	name = "cropocalypse:rafflesia",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -971,6 +1019,7 @@ minetest.register_node("cropocalypse:skunk_cabbage", {
 	inventory_image = "cropocalypse_skunk_cabbage.png",
 	wield_image = "cropocalypse_skunk_cabbage.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -988,6 +1037,7 @@ minetest.register_node("cropocalypse:skunk_cabbage", {
 minetest.register_decoration({
 	name = "cropocalypse:skunk_cabbage",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand","default:permafrost_with_stones","default:permafrost_with_moss"},
 	sidelen = 16,
 	noise_params = {
@@ -1011,6 +1061,7 @@ minetest.register_node("cropocalypse:squirrel_tail", {
 	inventory_image = "cropocalypse_squirrel_tail.png",
 	wield_image = "cropocalypse_squirrel_tail.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -1028,6 +1079,7 @@ minetest.register_node("cropocalypse:squirrel_tail", {
 minetest.register_decoration({
 	name = "cropocalypse:squirrel_tail",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand","default:permafrost_with_stones","default:permafrost_with_moss"},
 	sidelen = 16,
 	noise_params = {
@@ -1051,6 +1103,7 @@ minetest.register_node("cropocalypse:tundra_cotton", {
 	inventory_image = "cropocalypse_tundra_cotton.png",
 	wield_image = "cropocalypse_tundra_cotton.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -1068,6 +1121,7 @@ minetest.register_node("cropocalypse:tundra_cotton", {
 minetest.register_decoration({
 	name = "cropocalypse:tundra_cotton",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand","default:permafrost_with_stones","default:permafrost_with_moss"},
 	sidelen = 16,
 	noise_params = {
@@ -1091,6 +1145,7 @@ minetest.register_node("cropocalypse:white_lily", {
 	inventory_image = "cropocalypse_white_lily.png",
 	wield_image = "cropocalypse_white_lily.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -1108,6 +1163,7 @@ minetest.register_node("cropocalypse:white_lily", {
 minetest.register_decoration({
 	name = "cropocalypse:white_lily",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -1131,6 +1187,7 @@ minetest.register_node("cropocalypse:whorled_lousewort", {
 	inventory_image = "cropocalypse_whorled_lousewort.png",
 	wield_image = "cropocalypse_whorled_lousewort.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -1148,6 +1205,7 @@ minetest.register_node("cropocalypse:whorled_lousewort", {
 minetest.register_decoration({
 	name = "cropocalypse:whorled_lousewort",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand","default:permafrost_with_stones","default:permafrost_with_moss"},
 	sidelen = 16,
 	noise_params = {
@@ -1171,6 +1229,7 @@ minetest.register_node("cropocalypse:wild_celery", {
 	inventory_image = "cropocalypse_wild_celery.png",
 	wield_image = "cropocalypse_wild_celery.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -1188,6 +1247,7 @@ minetest.register_node("cropocalypse:wild_celery", {
 minetest.register_decoration({
 	name = "cropocalypse:wild_celery",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -1211,6 +1271,7 @@ minetest.register_node("cropocalypse:wild_wheat", {
 	inventory_image = "cropocalypse_wild_wheat.png",
 	wield_image = "cropocalypse_wild_wheat.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -1228,6 +1289,7 @@ minetest.register_node("cropocalypse:wild_wheat", {
 minetest.register_decoration({
 	name = "cropocalypse:wild_wheat",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -1251,6 +1313,7 @@ minetest.register_node("cropocalypse:yarrow", {
 	inventory_image = "cropocalypse_yarrow.png",
 	wield_image = "cropocalypse_yarrow.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -1268,6 +1331,7 @@ minetest.register_node("cropocalypse:yarrow", {
 minetest.register_decoration({
 	name = "cropocalypse:yarrow",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {

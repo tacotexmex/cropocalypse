@@ -12,6 +12,7 @@ minetest.register_node("cropocalypse:black_rose", {
 	inventory_image = "cropocalypse_black_rose.png",
 	wield_image = "cropocalypse_black_rose.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -29,6 +30,7 @@ minetest.register_node("cropocalypse:black_rose", {
 minetest.register_decoration({
 	name = "cropocalypse:black_rose",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -53,6 +55,7 @@ minetest.register_node("cropocalypse:dead_tree", {
 	inventory_image = "cropocalypse_dead_tree.png",
 	wield_image = "cropocalypse_dead_tree.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	visual_scale = 3,
 	paramtype = "light",
@@ -71,6 +74,7 @@ minetest.register_node("cropocalypse:dead_tree", {
 minetest.register_decoration({
 	name = "cropocalypse:dead_tree",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -94,6 +98,7 @@ minetest.register_node("cropocalypse:devils_club", {
 	inventory_image = "cropocalypse_devils_club.png",
 	wield_image = "cropocalypse_devils_club.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -111,6 +116,7 @@ minetest.register_node("cropocalypse:devils_club", {
 minetest.register_decoration({
 	name = "cropocalypse:devils_club",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -134,6 +140,7 @@ minetest.register_node("cropocalypse:deadly_amanita", {
 	inventory_image = "cropocalypse_deadly_amanita.png",
 	wield_image = "cropocalypse_deadly_amanita.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -151,6 +158,7 @@ minetest.register_node("cropocalypse:deadly_amanita", {
 minetest.register_decoration({
 	name = "cropocalypse:deadly_amanita",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {
@@ -174,6 +182,7 @@ minetest.register_node("cropocalypse:undead_grass", {
 	inventory_image = "cropocalypse_undead_grass.png",
 	wield_image = "cropocalypse_undead_grass.png",
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	paramtype = "light",
 	sunlight_propagates = true,
@@ -191,6 +200,7 @@ minetest.register_node("cropocalypse:undead_grass", {
 minetest.register_decoration({
 	name = "cropocalypse:undead_grass",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"group:soil","group:sand"},
 	sidelen = 16,
 	noise_params = {

@@ -8,6 +8,7 @@ local S = core.get_translator("cropocalypse")
 minetest.register_node("cropocalypse:carrot_wild", {
 	description = S("Wild Carrot"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	tiles = {"cropocalypse_carrot_wild.png"},
 	inventory_image = "cropocalypse_carrot_wild.png",
@@ -30,6 +31,7 @@ minetest.register_node("cropocalypse:carrot_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:carrot_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_grass"},
 	sidelen = 16,
 	noise_params = {
@@ -77,6 +79,7 @@ minetest.register_craftitem("cropocalypse:carrot", {
 minetest.register_node("cropocalypse:potato_wild", {
 	description = S("Wild Potato"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	tiles = {"cropocalypse_potato_wild.png"},
 	inventory_image = "cropocalypse_potato_wild.png",
@@ -99,6 +102,7 @@ minetest.register_node("cropocalypse:potato_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:potato_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_rainforest_litter"},
 	sidelen = 16,
 	noise_params = {
@@ -146,6 +150,7 @@ minetest.register_craftitem("cropocalypse:potato", {
 minetest.register_node("cropocalypse:beet_wild", {
 	description = S("Wild Beet"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	tiles = {"cropocalypse_beet_wild.png"},
 	inventory_image = "cropocalypse_beet_wild.png",
@@ -168,6 +173,7 @@ minetest.register_node("cropocalypse:beet_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:beet_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_grass"},
 	sidelen = 16,
 	noise_params = {
@@ -213,6 +219,7 @@ minetest.register_craftitem("cropocalypse:beet", {
 minetest.register_node("cropocalypse:soybean_wild", {
 	description = S("Wild Soybean"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	tiles = {"cropocalypse_soybean_wild.png"},
 	inventory_image = "cropocalypse_soybean_wild.png",
@@ -235,6 +242,7 @@ minetest.register_node("cropocalypse:soybean_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:soybean_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_grass"},
 	sidelen = 16,
 	noise_params = {
@@ -280,6 +288,7 @@ minetest.register_craftitem("cropocalypse:soybean", {
 minetest.register_node("cropocalypse:garlic_wild", {
 	description = S("Wild Garlic"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	tiles = {"cropocalypse_garlic_wild.png"},
 	inventory_image = "cropocalypse_garlic_wild.png",
@@ -302,6 +311,7 @@ minetest.register_node("cropocalypse:garlic_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:garlic_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_grass"},
 	sidelen = 16,
 	noise_params = {
@@ -349,6 +359,7 @@ minetest.register_craftitem("cropocalypse:garlic", {
 minetest.register_node("cropocalypse:flax_wild", {
 	description = S("Wild Flax"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	tiles = {"cropocalypse_flax_wild.png"},
 	inventory_image = "cropocalypse_flax_wild.png",
@@ -371,6 +382,7 @@ minetest.register_node("cropocalypse:flax_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:flax_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_grass"},
 	sidelen = 16,
 	noise_params = {
@@ -466,6 +478,7 @@ minetest.register_node("cropocalypse:pumpkin_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:pumpkin_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_grass"},
 	sidelen = 16,
 	noise_params = {
@@ -682,6 +695,7 @@ minetest.register_node("cropocalypse:watermelon_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:watermelon_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_grass"},
 	sidelen = 16,
 	noise_params = {
@@ -858,6 +872,7 @@ minetest.register_node("cropocalypse:watermelon_plant", {
 minetest.register_node("cropocalypse:corn_wild", {
 	description = S("Wild Corn"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	visual_scale = 3,
 	tiles = {"cropocalypse_corn_wild.png"},
@@ -881,6 +896,7 @@ minetest.register_node("cropocalypse:corn_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:corn_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_grass"},
 	sidelen = 16,
 	noise_params = {
@@ -945,6 +961,7 @@ minetest.register_craftitem("cropocalypse:corn", {
 minetest.register_node("cropocalypse:cocao_wild", {
 	description = S("Wild Cocao"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 1,
 	visual_scale = 3,
 	tiles = {"cropocalypse_cocao_wild.png"},
@@ -968,6 +985,7 @@ minetest.register_node("cropocalypse:cocao_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:cocao_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_rainforest_litter"},
 	sidelen = 16,
 	noise_params = {
@@ -1030,6 +1048,7 @@ minetest.register_craftitem("cropocalypse:cocao", {
 minetest.register_node("cropocalypse:morel_mushroom_wild", {
 	description = S("Wild Morel Mushroom"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 0,
 	tiles = {"cropocalypse_morel_mushroom_wild.png"},
 	inventory_image = "cropocalypse_morel_mushroom_wild.png",
@@ -1052,6 +1071,7 @@ minetest.register_node("cropocalypse:morel_mushroom_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:morel_mushroom_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_coniferous_litter"},
 	sidelen = 16,
 	noise_params = {
@@ -1099,6 +1119,7 @@ minetest.register_craftitem("cropocalypse:morel_mushroom", {
 minetest.register_node("cropocalypse:oyster_mushroom_wild", {
 	description = S("Wild Oyster Mushroom"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 0,
 	tiles = {"cropocalypse_oyster_mushroom_wild.png"},
 	inventory_image = "cropocalypse_oyster_mushroom_wild.png",
@@ -1121,6 +1142,7 @@ minetest.register_node("cropocalypse:oyster_mushroom_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:oyster_mushroom_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_coniferous_litter"},
 	sidelen = 16,
 	noise_params = {
@@ -1168,6 +1190,7 @@ minetest.register_craftitem("cropocalypse:oyster_mushroom", {
 minetest.register_node("cropocalypse:shiitake_mushroom_wild", {
 	description = S("Wild Skiitake Mushroom"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 0,
 	tiles = {"cropocalypse_shiitake_mushroom_wild.png"},
 	inventory_image = "cropocalypse_shiitake_mushroom_wild.png",
@@ -1190,6 +1213,7 @@ minetest.register_node("cropocalypse:shiitake_mushroom_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:shiitake_mushroom_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_coniferous_litter"},
 	sidelen = 16,
 	noise_params = {
@@ -1237,6 +1261,7 @@ minetest.register_craftitem("cropocalypse:shiitake_mushroom", {
 minetest.register_node("cropocalypse:button_mushroom_wild", {
 	description = S("Wild Button Mushroom"),
 	drawtype = "plantlike",
+	paramtype2 = "meshoptions",
 	waving = 0,
 	tiles = {"cropocalypse_button_mushroom_wild.png"},
 	inventory_image = "cropocalypse_button_mushroom_wild.png",
@@ -1259,6 +1284,7 @@ minetest.register_node("cropocalypse:button_mushroom_wild", {
 minetest.register_decoration({
 	name = "cropocalypse:button_mushroom_wild",
 	deco_type = "simple",
+	param2 = 8,
 	place_on = {"default:dirt_with_coniferous_litter"},
 	sidelen = 16,
 	noise_params = {
